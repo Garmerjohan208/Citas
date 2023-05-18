@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #dadada; /* Color de fondo más suave */
+  }
+
+  .boton {
+    background: #cf8989; ;
+  }
+  
+  .btn {
+    padding: 45px 90px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+  }
+  

@@ -1,0 +1,70 @@
+{
+  "Citas": [
+    {
+      "id": "1",
+      "nombres": "Juan",
+      "apellidos": "Pérez",
+      "direccion": "Calle Principal 123",
+      "descripcion": "Consulta médica",
+      "tipo": "Medicina General",
+      "fecha": "2023-05-18",
+      "hora": "10:00",
+      "lugar": "Clínica XYZ"
+    },
+    {
+      "id": "2",
+      "nombres": "María",
+      "apellidos": "González",
+      "direccion": "Avenida Central 456",
+      "descripcion": "Limpieza dental",
+      "tipo": "Odontología",
+      "fecha": "2023-05-20",
+      "hora": "14:30",
+      "lugar": "Consultorio Dental ABC"
+    },
+    {
+      "id": "3",
+      "nombres": "Pedro",
+      "apellidos": "Ramírez",
+      "direccion": "Calle Secundaria 789",
+      "descripcion": "Examen de sangre",
+      "tipo": "Laboratorio",
+      "fecha": "2023-05-22",
+      "hora": "09:15",
+      "lugar": "Laboratorio XYZ"
+    },
+    {
+      "id": "4",
+      "nombres": "Laura",
+      "apellidos": "Martínez",
+      "direccion": "Carrera 7 # 25-15",
+      "descripcion": "Terapia psicológica",
+      "tipo": "Psicología",
+      "fecha": "2023-05-24",
+      "hora": "16:00",
+      "lugar": "Consultorio PsicoSalud"
+    },
+    {
+      "id": "5",
+      "nombres": "Carlos",
+      "apellidos": "López",
+      "direccion": "Avenida 15 # 32-50",
+      "descripcion": "Chequeo general",
+      "tipo": "Medicina General",
+      "fecha": "2023-05-25",
+      "hora": "11:30",
+      "lugar": "Centro Médico SaludPlus"
+    },
+    {
+      "id": "6",
+      "nombres": "Ana",
+      "apellidos": "Sánchez",
+      "direccion": "Calle 10 # 35-70",
+      "descripcion": "Tratamiento de fisioterapia",
+      "tipo": "Fisioterapia",
+      "fecha": "2023-05-28",
+      "hora": "09:00",
+      "lugar": "Centro de Rehabilitación FisioCare"
+    }
+  ]
+}
