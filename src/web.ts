@@ -1,10 +1,18 @@
 import express from 'express';
-export default function createServer() {
-    const app = express();
+import indexRoutes from './routes/index';
 
-    app.get('/seleccion_citas/:usuario/:administrador', (req, res) => {
-        res.send()
-    })
-    
-    return app
-}
+const app = express();
+app.use(express.json());
+
+const PORT = 3000;
+
+app.get('/ping', (req, res) => {
+    console.log(':3')
+    res.send('Hola mundo')
+})
+
+app.use('/api/index', indexRoutes);
+
+app.listen(PORT, () => {
+    console.log('El servidor corre en el port ${PORT}')
+});
